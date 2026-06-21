@@ -1,0 +1,58 @@
+[
+  {
+    "question": "入职一年后年假有几天？",
+    "user_permission": "employee",
+    "expected_source": "员工手册.md",
+    "expected_contains": "5 天",
+    "should_answer": true
+  },
+  {
+    "question": "工作十年后年假有几天？",
+    "user_permission": "employee",
+    "expected_source": "员工手册.md",
+    "expected_contains": "10 天",
+    "should_answer": true
+  },
+  {
+    "question": "导出报表失败怎么办？",
+    "user_permission": "employee",
+    "expected_source": "产品手册.md",
+    "expected_contains": "导出权限",
+    "should_answer": true
+  },
+  {
+    "question": "单笔 8000 元报销需要谁审批？",
+    "user_permission": "employee",
+    "expected_source": null,
+    "expected_contains": "资料中未提到",
+    "should_answer": false
+  },
+  {
+    "question": "单笔 8000 元报销需要谁审批？",
+    "user_permission": "finance",
+    "expected_source": "财务制度.md",
+    "expected_contains": "部门负责人和财务负责人",
+    "should_answer": true
+  },
+  {
+    "question": "连续输错密码后账号会锁定多久？",
+    "user_permission": "employee",
+    "expected_source": "产品手册.md",
+    "expected_contains": "30 分钟",
+    "should_answer": true
+  },
+  {
+    "question": "接口超时时应该先检查什么？",
+    "user_permission": "employee",
+    "expected_source": null,
+    "expected_contains": "资料中未提到",
+    "should_answer": false
+  },
+  {
+    "question": "接口超时时应该先检查什么？",
+    "user_permission": "engineer",
+    "expected_source": "运维手册.md",
+    "expected_contains": "上游服务状态",
+    "should_answer": true
+  }
+]

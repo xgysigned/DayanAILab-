@@ -1,0 +1,25 @@
+<svg width="1100" height="620" viewBox="0 0 1100 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RAG online rerank test summary</title>
+  <desc id="desc">Screenshot-style summary for the RAG demo online evaluation with BAAI bge reranker.</desc>
+  <rect width="1100" height="620" rx="22" fill="#111827"/>
+  <rect x="28" y="28" width="1044" height="564" rx="16" fill="#0b1220" stroke="#334155" stroke-width="2"/>
+  <circle cx="62" cy="58" r="8" fill="#ef4444"/>
+  <circle cx="90" cy="58" r="8" fill="#f59e0b"/>
+  <circle cx="118" cy="58" r="8" fill="#22c55e"/>
+  <text x="148" y="64" font-family="Consolas, monospace" font-size="18" fill="#cbd5e1">PowerShell - rag_demo online evaluation</text>
+
+  <text x="58" y="110" font-family="Consolas, monospace" font-size="18" fill="#93c5fd">&gt; python rag_minimal.py --eval --rerank-mode api --require-online --report reports/rag-online-rerank-report.md</text>
+  <text x="58" y="154" font-family="Consolas, monospace" font-size="18" fill="#e5e7eb">RUNTIME MODES: embeddings=online, llm=online, rerank=api-online</text>
+  <text x="58" y="190" font-family="Consolas, monospace" font-size="18" fill="#e5e7eb">Embedding: BAAI/bge-m3</text>
+  <text x="58" y="224" font-family="Consolas, monospace" font-size="18" fill="#e5e7eb">Reranker: BAAI/bge-reranker-v2-m3</text>
+  <text x="58" y="258" font-family="Consolas, monospace" font-size="18" fill="#e5e7eb">LLM: THUDM/GLM-4-9B-0414</text>
+
+  <text x="58" y="314" font-family="Consolas, monospace" font-size="18" fill="#86efac">[PASS] 入职一年后年假有几天？</text>
+  <text x="58" y="348" font-family="Consolas, monospace" font-size="18" fill="#86efac">[PASS] 工作十年后年假有几天？</text>
+  <text x="58" y="382" font-family="Consolas, monospace" font-size="18" fill="#86efac">[PASS] 导出报表失败怎么办？</text>
+  <text x="58" y="416" font-family="Consolas, monospace" font-size="18" fill="#86efac">[PASS] 权限过滤：employee 无法查看财务制度</text>
+  <text x="58" y="450" font-family="Consolas, monospace" font-size="18" fill="#86efac">[PASS] 权限过滤：finance 可以查看财务制度</text>
+  <text x="58" y="484" font-family="Consolas, monospace" font-size="18" fill="#86efac">[PASS] 无答案兜底：资料中未提到</text>
+  <text x="58" y="530" font-family="Consolas, monospace" font-size="22" font-weight="700" fill="#facc15">EVAL SUMMARY: 8/8 passed</text>
+  <text x="58" y="562" font-family="Consolas, monospace" font-size="16" fill="#94a3b8">Report: reports/rag-online-rerank-report.md</text>
+</svg>
